@@ -1,0 +1,39 @@
+
+public class Pizza extends Alimento {
+
+	private String sabor;
+	private String tamanho;
+	private boolean bordaRecheada;
+	
+	public Pizza(double peso, double valor, boolean vegetariano, String sabor, String tamanho, boolean bordaRecheada) {
+		super(peso, valor, vegetariano);
+		this.sabor = sabor;
+		this.tamanho = tamanho;
+		this.bordaRecheada = bordaRecheada;
+	}
+
+	public String getSabor() {
+		return sabor;
+	}
+
+	public void setSabor(String sabor) {
+		this.sabor = sabor;
+	}
+
+	public boolean isBordaRecheada() {
+		return bordaRecheada;
+	}
+
+	public void setBordaRecheada(boolean bordaRecheada) {
+		this.bordaRecheada = bordaRecheada;
+	}
+
+	public String getTamanho() {
+		return tamanho;
+	}
+
+	public void setTamanho(String tamanho) {
+		this.tamanho = tamanho;
+	}
+
+}

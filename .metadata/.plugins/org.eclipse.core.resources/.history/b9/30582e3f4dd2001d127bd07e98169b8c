@@ -1,0 +1,19 @@
+
+public class Hamburguer extends Alimento {
+
+	private int qtdeCarnes;
+	private String tipoPao;
+	private boolean addBacon;
+	
+	public Hamburguer(double peso, double valor, boolean vegetariano, int qtdeCarnes, String tipoPao,
+			boolean addBacon) {
+		super(peso, valor, vegetariano);
+		this.qtdeCarnes = qtdeCarnes;
+		this.tipoPao = tipoPao;
+		this.addBacon = addBacon;
+	}
+
+	
+	
+
+}

@@ -1,0 +1,8 @@
+
+public interface Restaurante {
+
+	public abstract double calculaValor() {
+		
+	}
+	
+}

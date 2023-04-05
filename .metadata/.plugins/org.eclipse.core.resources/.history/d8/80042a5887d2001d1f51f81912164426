@@ -1,0 +1,40 @@
+
+public abstract class Alimento {
+
+	
+	private double peso;
+	private double valor;
+	protected boolean vegetariano; 
+	
+	public Alimento(double peso, double valor, boolean vegetariano) {
+		this.peso = peso;
+		this.valor = valor;
+		this.vegetariano = vegetariano;
+	}
+
+	public double getPeso() {
+		return peso;
+	}
+
+	public void setPeso(double peso) {
+		this.peso = peso;
+	}
+
+	public double getValor() {
+		return valor;
+	}
+
+	public void setValor(double valor) {
+		this.valor = valor;
+	}
+
+	public boolean isVegetariano() {
+		return vegetariano;
+	}
+
+	public void setVegetariano(boolean vegetariano) {
+		this.vegetariano = vegetariano;
+	}
+	
+	
+}

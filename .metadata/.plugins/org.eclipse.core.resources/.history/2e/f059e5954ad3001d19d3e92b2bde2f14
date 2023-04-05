@@ -1,0 +1,24 @@
+
+public class Água extends Bebida {
+
+	private boolean comGas;
+	
+	public Água(String tipoBebida, double quantidade, double valor, boolean comGas) {
+		super(tipoBebida, quantidade, valor);
+		this.setComGas(comGas);
+	}
+
+	@Override
+    public String toString() {
+        return "Água " + getTipoBebida() + " de " + getQuantidade() + "ml, custando R$ " + getValor() + " . Com gás? " + isComGas() 
+    }
+	
+	public boolean isComGas() {
+		return comGas;
+	}
+
+	public void setComGas(boolean comGas) {
+		this.comGas = comGas;
+	}
+
+}

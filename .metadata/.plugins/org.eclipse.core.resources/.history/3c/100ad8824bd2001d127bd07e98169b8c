@@ -1,0 +1,9 @@
+
+public class Hamburguer extends Alimento {
+
+	private int qtdeCarnes; //1 carne, 2...
+	private String tipoPao; //brioche, bola...
+	private double peso;
+	private double valor;
+	
+}

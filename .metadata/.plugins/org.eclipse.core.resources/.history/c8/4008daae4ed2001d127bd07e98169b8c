@@ -1,0 +1,9 @@
+
+public class Refri extends Bebida {
+
+	public Refri(String tipoBebida, double quantidade, double valor) {
+		super(tipoBebida, quantidade, valor);
+		// TODO Auto-generated constructor stub
+	}
+
+}

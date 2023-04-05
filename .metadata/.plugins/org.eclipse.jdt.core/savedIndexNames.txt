@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Admin\Desktop\tudo\Unifor\ADS\POO\Entrega Final\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2103987782.index
+3749305839.index

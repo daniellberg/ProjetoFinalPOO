@@ -1,0 +1,12 @@
+
+public class Água extends Bebida {
+
+	private boolean comGas;
+	
+	public Água(String tipoBebida, double quantidade, double valor, boolean comGas) {
+		super(tipoBebida, quantidade, valor);
+		this.comGas = comGas;
+		
+	}
+
+}

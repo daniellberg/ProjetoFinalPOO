@@ -1,0 +1,8 @@
+
+public abstract class Bebida {
+
+	private String tipoBebida; //quente ou gelada
+	private double quantidade; //200ml...
+	private double valor;
+	
+}

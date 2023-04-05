@@ -1,0 +1,9 @@
+
+public class Hamburguer extends Alimento {
+
+	public Hamburguer(double peso, double valor, boolean vegetariano) {
+		super(peso, valor, vegetariano);
+		// TODO Auto-generated constructor stub
+	}
+
+}

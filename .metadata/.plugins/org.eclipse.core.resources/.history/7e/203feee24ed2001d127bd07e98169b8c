@@ -1,0 +1,13 @@
+
+public class Refri extends Bebida {
+
+	private String marca; //Coca, guaraná, pepsi...
+	private boolean zero; //coca zero, guaraná zero...
+	
+	
+	public Refri(String tipoBebida, double quantidade, double valor) {
+		super(tipoBebida, quantidade, valor);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class Pizza extends Alimento {
+
+	public Pizza(double peso, double valor, boolean vegetariano) {
+		super(peso, valor, vegetariano);
+		// TODO Auto-generated constructor stub
+	}
+
+}

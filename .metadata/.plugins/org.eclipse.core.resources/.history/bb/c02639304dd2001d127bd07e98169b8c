@@ -1,0 +1,14 @@
+
+public class Hamburguer extends Alimento {
+
+	
+	private int qtdeCarnes;
+	private String tipoPao;
+	private boolean addBacon;
+	
+	public Hamburguer(double peso, double valor, boolean vegetariano) {
+		super(peso, valor, vegetariano);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,78 @@
+import java.io.*;
+import java.util.*;
+
+public class Principal {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		
+	ArrayList<Alimento>	armazenaAlimento = new ArrayList<Alimento>();	
+	ArrayList<Bebida> armazenaBebida = new ArrayList<Bebida>();
+		
+		File alimentosEntrada = new File("entrada1.txt");
+		
+		try (Scanner sc = new Scanner(alimentosEntrada)) {
+			double valorArray1 = sc.nextDouble();
+			boolean vegArray1 = sc.nextBoolean();
+			String saborArray1 = sc.next();
+			String tamanhoArray1 = sc.next();
+			boolean bordaArray1 = sc.nextBoolean();
+			
+			double valorArray2 = sc.nextDouble();
+			boolean vegArray2 = sc.nextBoolean();
+			String saborArray2 = sc.next();
+			String tamanhoArray2 = sc.next();
+			boolean bordaArray2 = sc.nextBoolean();
+			
+			/*Pizza p1 = new Pizza(valorArray1, vegArray1,saborArray1, tamanhoArray1, bordaArray1);
+			Pizza p2 = new Pizza(valorArray2, vegArray2,saborArray2, tamanhoArray2, bordaArray2);*/	
+			
+			double HvalorArray1 = sc.nextDouble();
+			boolean HvegArray1 = sc.nextBoolean();
+			int carnesArray1 = sc.nextInt();
+			String paoArray1 = sc.next();
+			boolean baconArray1 = sc.nextBoolean();
+			
+			double HvalorArray2 = sc.nextDouble();
+			boolean HvegArray2 = sc.nextBoolean();
+			int carnesArray2 = sc.nextInt();
+			String paoArray2 = sc.next();
+			boolean baconArray2 = sc.nextBoolean();
+			
+			Hamburguer h1 = new Hamburguer(HvalorArray1, HvegArray1, carnesArray1, paoArray1, baconArray1);
+			Hamburguer h2 = new Hamburguer(HvalorArray2, HvegArray2, carnesArray2, paoArray2, baconArray2);
+		}
+		
+		File bebidasEntrada = new File("entrada2.txt");
+		
+		try (Scanner sc1 = new Scanner(bebidasEntrada)) {
+			String aTipoArray1 = sc1.next();
+			double aQtdeArray1 = sc1.nextDouble();
+			double aValorArray1 = sc1.nextDouble();
+			boolean aGasArray1 = sc1.nextBoolean();
+			
+			String aTipoArray2 = sc1.next();
+			double aQtdeArray2 = sc1.nextDouble();
+			double aValorArray2 = sc1.nextDouble();
+			boolean aGasArray2 = sc1.nextBoolean();
+			
+			Água a1 = new Água(aTipoArray1,aQtdeArray1,aValorArray1,aGasArray1);
+			Água a2 = new Água(aTipoArray2,aQtdeArray2,aValorArray2,aGasArray2);
+			
+			String rTipoArray1 = sc1.next();
+			double rQtdeArray1 = sc1.nextDouble();
+			double rValorArray1 = sc1.nextDouble();
+			String rMarcaArray1 = sc1.next();
+			boolean rZeroArray1 = sc1.nextBoolean();
+		
+			String rTipoArray2 = sc1.next();
+			double rQtdeArray2 = sc1.nextDouble();
+			double rValorArray2 = sc1.nextDouble();
+			String rMarcaArray2 = sc1.next();
+			boolean rZeroArray2 =  sc1.nextBoolean();
+			
+		}
+		
+	}
+
+}
